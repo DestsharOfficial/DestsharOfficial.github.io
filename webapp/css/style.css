@@ -1,0 +1,29 @@
+/* Enter your custom styles here */
+.background {
+    background: #555555;
+}
+
+.white-text {
+    color: white;
+}
+
+.margin-left {
+    margin-left: 2rem;
+}
+
+.headerMargins {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.marginTop {
+    margin-top: 0.5rem;
+}
+
+/* .sapUiRespGrid.sapUiRespGridHSpace1>div {
+    margin: 0 0 0 0rem !important
+}
+
+.sapUiRespGrid.sapUiRespGridHSpace1 {
+    margin: 0 0 0 0rem !important
+} */
