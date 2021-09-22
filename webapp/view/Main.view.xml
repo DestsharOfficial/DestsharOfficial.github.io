@@ -57,10 +57,10 @@
                                         <RatingIndicator maxValue="5" value="3" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="Selenium"/>
                                         <RatingIndicator maxValue="5" value="2" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
-                                        <Text text="Teamwork"/>
-                                        <RatingIndicator maxValue="5" value="5" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="Atlassian"/>
                                         <RatingIndicator maxValue="5" value="4" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
+                                        <Text text="Teamwork"/>
+                                        <RatingIndicator maxValue="5" value="5" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="Presenting"/>
                                         <RatingIndicator maxValue="5" value="4" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="Organization"/>
