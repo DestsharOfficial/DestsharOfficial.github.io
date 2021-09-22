@@ -9,7 +9,11 @@ sap.ui.define([
 
 		return Controller.extend("com.destshar.cv.controller.Main", {
 			onInit: function () {
-
-			}
+                
+            },
+            
+            onAfterRendering: function() {
+                this.getView().byId("page").scrollTo(0)
+            }
 		});
 	});
