@@ -130,7 +130,7 @@
                                                 <CustomListItem>
                                                     <HBox class="sapUiSmallMargin">
                                                         <Image class="marginTop" src="https://raw.githubusercontent.com/DestsharOfficial/DestsharOfficial.github.io/main/webapp/img/gavdi_logo_circle.png" width="3rem" />
-                                                        <VBox class="sapUiSmallMargin">
+                                                        <VBox class="sapUiTinyMargin">
                                                             <Title text="Gavdi, 2017-2019"/>
                                                             <Title titleStyle="H6" text="Junior SAP developer"/>
                                                             <Text class="sapUiSmallMargin" text="Developing ABAP reports; 
@@ -144,7 +144,7 @@
                                                 <CustomListItem>
                                                     <HBox class="sapUiSmallMargin">
                                                         <Image class="marginTop" src="https://raw.githubusercontent.com/DestsharOfficial/DestsharOfficial.github.io/main/webapp/img/redknee_logo_circle.png" width="3rem"/>
-                                                        <VBox class="sapUiSmallMargin">
+                                                        <VBox class="sapUiTinyMargin">
                                                             <Title text="Redknee, 07-09.2016"/>
                                                             <Title titleStyle="H6" text="Student-internee"/>
                                                             <Text class="sapUiSmallMargin" text="Designing and developing internal product 
