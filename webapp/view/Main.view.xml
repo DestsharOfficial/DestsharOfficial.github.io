@@ -85,7 +85,7 @@
                                             <RatingIndicator iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" maxValue="5" value="2" displayOnly="true"/>
                                         </HBox>-->
                                 </Panel>
-                                <Panel headerText="Intrests">
+                                <Panel headerText="Interests">
                                     <l:Grid defaultSpan="XL12 L12 M12 S12">
                                         <Text text="Presenting"/> 
                                         <Text text="Design"/>                                        
