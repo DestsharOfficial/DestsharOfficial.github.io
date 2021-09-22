@@ -1,8 +1,7 @@
 <mvc:View controllerName="com.destshar.cv.controller.Main"
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns="sap.m"
-    xmlns:l="sap.ui.layout"
-    xmlns:core="sap.ui.core">
+    xmlns:l="sap.ui.layout">
     <Shell id="shell" appWidthLimited="true">
         <App id="app">
             <pages>
@@ -20,21 +19,11 @@
                         </Text>
                     </l:Splitter> -->
                     <l:Grid>
-                        <VBox>
+                        <VBox alignContent="Center">
                             <layoutData>
                                 <l:GridData span="XL3 L3 M3 S12"/>
                             </layoutData>
                             <items>
-                                <!-- <HBox alignItems="Center" alignContent="Center" justifyContent="Center">
-                                <Image src="/img/selfiaczeksweetfociahello.jpg" width="100%"/>                                
-                            </HBox> -->
-                                <!-- <FlexBox alignItems="Center" justifyContent="Center"> -->
-                                <VBox>
-                                    <items>
-                                        <Image src="/img/selfiaczeksweetfociahello.jpg" width="80%" class="sapUiMediumMargin"/>
-                                    </items>
-                                </VBox>                                
-                                <!-- </FlexBox> -->
                                 <Panel headerText="Skills">
                                     <l:Grid defaultSpan="XL6 L6 M6 S12">
                                         <Text text="SAPUI5"/>
@@ -45,7 +34,7 @@
                                         <RatingIndicator maxValue="5" value="4" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="OData"/>
                                         <RatingIndicator maxValue="5" value="3" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
-                                        <Text text="CDS views"/>
+                                        <Text text="CDS"/>
                                         <RatingIndicator maxValue="5" value="1" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="WebDynpro"/>
                                         <RatingIndicator maxValue="5" value="3" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
@@ -55,8 +44,6 @@
                                         <RatingIndicator maxValue="5" value="4" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="Selenium"/>
                                         <RatingIndicator maxValue="5" value="2" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
-                                        <Text text="Teamwork"/>
-                                        <RatingIndicator maxValue="5" value="5" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                     </l:Grid>
                                 </Panel>
                                 <Panel headerText="Languages">
@@ -77,113 +64,23 @@
                                 </Panel>
                                 <Panel headerText="Intrests">
                                     <l:Grid defaultSpan="XL12 L12 M12 S12">
-                                        <Text text="Cooking"/>
-                                        <Text text="Dioramas and minis"/>
-                                        <Text text="Music"/>
+                                        <Text text="English"/>
+                                        <Text text="German"/>
                                     </l:Grid>
                                 </Panel>
                             </items>
                         </VBox>
                         <!-- <VBox backgroundDesign="Solid"> -->
-                        <ScrollContainer >
+                        <VBox>
                             <layoutData>
                                 <l:GridData span="XL8 L8 M8 S12"/>
                             </layoutData>
-                            <content>
-                                <VBox>
-                                    <items>
-                                        <VBox class="headerMargins">
-                                            <Title titleStyle="H1" text="Miłosz Kachniarz"/>
-                                            <Text text="SAP developer with over 4 years experience. Specialises in HCM module. Blahblahblah"/>
-                                        </VBox>
-                                        <Panel headerText="Experience">
-                                            <List>
-                                                <CustomListItem>
-                                                    <HBox class="sapUiSmallMargin">
-                                                        <Image class="marginTop" src="https://w7.pngwing.com/pngs/689/592/png-transparent-capgemini-sogeti-engineering-information-industry-blockchain-miscellaneous-blue-logo-thumbnail.png" width="3rem" />
-                                                        <VBox class="sapUiTinyMargin">
-                                                            <Title text="Capgemini, 2019-present"/>
-                                                            <Title titleStyle="H6" text="Application consultant (developer)"/>
-                                                            <Text class="sapUiSmallMargin" text="Designing, developing and maintaining UI5 apps, 
-                                                            WebDynpro ABAP apps and ABAP reports; extending standard WebDynpros and transactions; 
-                                                            first steps in CDS and RAP; finding workarounds for imperfect standard implementations; 
-                                                            taking role of lead frontend developer; taking part in projects for multiple clients; 
-                                                            investigating and solving problems reported by clients; 
-                                                            conducting KT sessions for new fellows in projects; 
-                                                            mentoring junior colleagues; giving lectures to internal communities; 
-                                                            cooking more to share in the office ;)"/>
-                                                        </VBox>
-                                                    </HBox>
-                                                </CustomListItem>
-                                                <CustomListItem>
-                                                    <HBox class="sapUiSmallMargin">
-                                                        <Image class="marginTop" src="/img/gavdi.jfif" width="3rem" />
-                                                        <VBox class="sapUiSmallMargin">
-                                                            <Title text="Gavdi, 2017-2019"/>
-                                                            <Title titleStyle="H6" text="Junior SAP developer"/>
-                                                            <Text class="sapUiSmallMargin" text="Developing ABAP reports; 
-                                                            developing both Gateway backend and UI5 side of Fiori apps; 
-                                                            sculpting SmartForms; taking part in creating and extending company's products; 
-                                                            investigating and fixing bugs; adjusting apps to clients' requirements; 
-                                                            taking part in tests in client's HQ;"/>
-                                                        </VBox>
-                                                    </HBox>
-                                                </CustomListItem>
-                                                <CustomListItem>
-                                                    <HBox class="sapUiSmallMargin">
-                                                        <Image class="marginTop" src="https://dl08oc4nbwk8g.cloudfront.net/wp-content/uploads/2017/01/Redknee.jpg" width="3rem"/>
-                                                        <VBox class="sapUiSmallMargin">
-                                                            <Title text="Redknee, 07-09.2016"/>
-                                                            <Title titleStyle="H6" text="Student-internee"/>
-                                                            <Text class="sapUiSmallMargin" text="Designing and developing internal product 
-                                                            using Angular 2; working in Scrum methodology; 
-                                                            conducting progress presentations for company;"/>
-                                                        </VBox>
-                                                    </HBox>
-                                                </CustomListItem>
-                                            </List>
-                                        </Panel>
-                                        <Panel headerText="Education">
-                                            <List>
-                                                <CustomListItem>
-                                                    <HBox class="sapUiSmallMargin">
-                                                        <Image src="https://lh3.googleusercontent.com/proxy/41uQ9ybxIhY8HgjbmDQAkhA-3zUzWluJa_qpjpuHjA2AGDFxjs_1XhT6s2utrZPAmBSeo_4R9cFexEpwfTO2KAFjqqGevIdaEu483KkdDhoiHE7h29OGoZCMzOmBO_4gGdTT6PEaCwH0qksSkcDjRMfbhnhY66s" width="3rem" />
-                                                        <VBox class="sapUiTinyMargin">
-                                                            <Title text="Wrocław University of Science and Technology, 2016 - 2017"/>
-                                                            <Text text="Master of Engineering"/>
-                                                            <Text text="Speciality: Informatic Systems Engineering"/>
-                                                        </VBox>
-                                                    </HBox>
-                                                </CustomListItem>
-                                                <CustomListItem>
-                                                    <HBox class="sapUiSmallMargin">
-                                                        <Image src="https://lh3.googleusercontent.com/proxy/41uQ9ybxIhY8HgjbmDQAkhA-3zUzWluJa_qpjpuHjA2AGDFxjs_1XhT6s2utrZPAmBSeo_4R9cFexEpwfTO2KAFjqqGevIdaEu483KkdDhoiHE7h29OGoZCMzOmBO_4gGdTT6PEaCwH0qksSkcDjRMfbhnhY66s" width="3rem" />
-                                                        <VBox class="sapUiTinyMargin">
-                                                            <Title text="Wrocław University of Science and Technology, 2012 - 2016"/>
-                                                            <Text text="Bachelor of Engineering"/>
-                                                            <Text text="Speciality: Informatic Systems Engineering"/>
-                                                        </VBox>
-                                                    </HBox>
-                                                </CustomListItem>
-                                            </List>
-                                        </Panel>
-                                        <Panel headerText="Certificates">
-                                            <List>
-                                                <CustomListItem>
-                                                    <HBox class="sapUiSmallMargin">
-                                                        <Image src="https://pbs.twimg.com/media/EVCKtRqXkAIEcOO.jpg" width="3rem" />
-                                                        <VBox class="sapUiTinyMargin">
-                                                            <Title text="ITIL Foundation Certificate in IT Service Management"/>
-                                                            <Text text="10.2020"/>
-                                                        </VBox>
-                                                    </HBox>
-                                                </CustomListItem>
-                                            </List>
-                                        </Panel>
-                                    </items>
-                                </VBox>
-                            </content>
-                        </ScrollContainer>
+                            <items>
+                                <Panel headerText="Experience">
+
+                                </Panel>
+                            </items>
+                        </VBox>
                     </l:Grid>
                 </Page>
             </pages>
