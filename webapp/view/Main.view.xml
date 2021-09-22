@@ -36,7 +36,7 @@
                                 </VBox>                                
                                 <!-- </FlexBox> -->
                                 <Panel headerText="Skills">
-                                    <l:Grid defaultSpan="XL6 L6 M6 S12">
+                                    <l:Grid defaultSpan="XL6 L6 M12 S12">
                                         <Text text="SAPUI5"/>
                                         <RatingIndicator maxValue="5" value="4" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="JavaScript"/>
@@ -68,7 +68,7 @@
                                     </l:Grid>
                                 </Panel>
                                 <Panel headerText="Languages">
-                                    <l:Grid defaultSpan="XL6 L6 M6 S12">
+                                    <l:Grid defaultSpan="XL6 L6 M12 S12">
                                         <Text text="Polish"/>
                                         <RatingIndicator maxValue="5" value="5" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="English"/>
